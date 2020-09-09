@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        this is my html
+    </div>
+    <hr />
+    <iframe src="/iframe.html" id="ifr1" name="ifr1" scrolling="yes">
+        <p>Your browser does not support iframes.</p>
+    </iframe>
+    <hr />
+    <script>
+        let box = document.getElementById('box');
+        console.log('typeof box: ', typeof box); // object
+        console.log('document.getElementById: ', typeof document.getElementById); // function
+    </script>
+</body>
+</html>
